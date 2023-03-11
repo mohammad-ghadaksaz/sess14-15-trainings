@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(35, 35, 70);
+}
+
+.stairs {
+  width: 1000px;
+  height: 1000px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate3d(1.3, 1.2, -1, 78deg);
+  transform-style: preserve-3d;
+}
+.stairs > li {
+  width: 100%;
+  height: 110px;
+  list-style-type: none;
+  overflow: hidden;
+}
+.stairs > li:nth-of-type(2) {
+  transform-origin: top;
+  transform: rotateX(-90deg);
+}
+.stairs > li:nth-of-type(3) {
+  transform: translate3d(0px, -110px, -110px);
+}
+.stairs > li:nth-of-type(4) {
+  transform: translate3d(0, -110px, -110px) rotateX(-90deg);
+  transform-origin: top;
+}
+.stairs > li::after, .stairs > li::before {
+  color: white;
+  text-shadow: 2px 2px 5px red;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bolder;
+  letter-spacing: 30px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-transform: uppercase;
+  transition: 5s;
+}
+.stairs > li:nth-of-type(2)::before, .stairs > li:nth-of-type(1)::after {
+  content: "this is done";
+}
+.stairs > li:nth-of-type(3)::before, .stairs > li:nth-of-type(2)::after {
+  content: "by me :";
+}
+.stairs > li:nth-of-type(4)::before, .stairs > li:nth-of-type(3)::after {
+  content: "Bardia Ghadaksaz";
+}
+.stairs > li:nth-of-type(1)::before {
+  content: "Hello";
+}
+.stairs > li:nth-of-type(4)::after {
+  content: "Bye-Bye";
+}
+.stairs:hover > li::before {
+  margin-top: -110px;
+}/*# sourceMappingURL=stairs.css.map */

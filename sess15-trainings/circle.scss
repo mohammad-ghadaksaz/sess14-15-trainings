@@ -1,0 +1,32 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+@keyframes bardia {
+    to{
+        transform: rotate3d(1,10,1, 720deg);
+    }
+    
+}
+.box{
+    width: 500px;
+    height: 500px;
+    margin: 100px auto;
+    transform-style: preserve-3d;
+    // border: 1px solid black;/
+    position: relative;
+    >div{
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
+        background-color: red;
+        position: absolute;
+        border: 5px solid rgb(150, 37, 37);
+        animation: bardia infinite linear 50s;
+        top: 0;left: 0;
+        @for $i from 1 through 90 {
+            &:nth-of-type(#{$i}){
+                transform: rotateY(#{$i*2}deg);
+            }
+        }
+    }
+}

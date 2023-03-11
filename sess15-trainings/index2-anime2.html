@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;margin: 0;box-sizing: border-box;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            margin: 100px auto;
+            background-color: red;
+            border-radius: 50%;
+            animation: bardia 10s linear 1.2s  alternate forwards;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: red;
+            font-size: 20px;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        }
+        @keyframes bardia {
+            0%{
+                width: 220px;
+                height: 220px;
+                background-color: red;
+                color: red;
+            }
+            20%{
+                width: 300px;
+                height: 400px;
+                background-color: yellow;
+                transform: rotateX(120deg);
+                color: yellow;
+            }
+            50%{width: 120px;
+            height: 500px;
+        background-color: aquamarine;
+        color:aquamarine ;
+    transform: rotate3d(360deg,360deg,120deg);}
+            80%{
+                width: 300px;
+                height: 400px;
+                background-color: purple;
+                color: purple;
+                /* transform: translate(-400px,200px); */
+            }
+            95%{width: 100px;
+                background-color: chartreuse;
+                color: chartreuse;
+            height: 500px;
+        margin: 100px auto;
+    border-radius: 1px; }
+            100%{width: 100vw;
+            height: 100vh;
+            background-color: black;
+            color: white;
+        margin: 0 auto;
+        border-radius: 0px;
+        }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="box">hello world/bardia </div>
+</body>
+</html>

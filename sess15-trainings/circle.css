@@ -1,0 +1,299 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@keyframes bardia {
+  to {
+    transform: rotate3d(1, 10, 1, 720deg);
+  }
+}
+.box {
+  width: 500px;
+  height: 500px;
+  margin: 100px auto;
+  transform-style: preserve-3d;
+  position: relative;
+}
+.box > div {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  border: 5px solid rgb(150, 37, 37);
+  animation: bardia infinite linear 50s;
+  top: 0;
+  left: 0;
+}
+.box > div:nth-of-type(1) {
+  transform: rotateY(2deg);
+}
+.box > div:nth-of-type(2) {
+  transform: rotateY(4deg);
+}
+.box > div:nth-of-type(3) {
+  transform: rotateY(6deg);
+}
+.box > div:nth-of-type(4) {
+  transform: rotateY(8deg);
+}
+.box > div:nth-of-type(5) {
+  transform: rotateY(10deg);
+}
+.box > div:nth-of-type(6) {
+  transform: rotateY(12deg);
+}
+.box > div:nth-of-type(7) {
+  transform: rotateY(14deg);
+}
+.box > div:nth-of-type(8) {
+  transform: rotateY(16deg);
+}
+.box > div:nth-of-type(9) {
+  transform: rotateY(18deg);
+}
+.box > div:nth-of-type(10) {
+  transform: rotateY(20deg);
+}
+.box > div:nth-of-type(11) {
+  transform: rotateY(22deg);
+}
+.box > div:nth-of-type(12) {
+  transform: rotateY(24deg);
+}
+.box > div:nth-of-type(13) {
+  transform: rotateY(26deg);
+}
+.box > div:nth-of-type(14) {
+  transform: rotateY(28deg);
+}
+.box > div:nth-of-type(15) {
+  transform: rotateY(30deg);
+}
+.box > div:nth-of-type(16) {
+  transform: rotateY(32deg);
+}
+.box > div:nth-of-type(17) {
+  transform: rotateY(34deg);
+}
+.box > div:nth-of-type(18) {
+  transform: rotateY(36deg);
+}
+.box > div:nth-of-type(19) {
+  transform: rotateY(38deg);
+}
+.box > div:nth-of-type(20) {
+  transform: rotateY(40deg);
+}
+.box > div:nth-of-type(21) {
+  transform: rotateY(42deg);
+}
+.box > div:nth-of-type(22) {
+  transform: rotateY(44deg);
+}
+.box > div:nth-of-type(23) {
+  transform: rotateY(46deg);
+}
+.box > div:nth-of-type(24) {
+  transform: rotateY(48deg);
+}
+.box > div:nth-of-type(25) {
+  transform: rotateY(50deg);
+}
+.box > div:nth-of-type(26) {
+  transform: rotateY(52deg);
+}
+.box > div:nth-of-type(27) {
+  transform: rotateY(54deg);
+}
+.box > div:nth-of-type(28) {
+  transform: rotateY(56deg);
+}
+.box > div:nth-of-type(29) {
+  transform: rotateY(58deg);
+}
+.box > div:nth-of-type(30) {
+  transform: rotateY(60deg);
+}
+.box > div:nth-of-type(31) {
+  transform: rotateY(62deg);
+}
+.box > div:nth-of-type(32) {
+  transform: rotateY(64deg);
+}
+.box > div:nth-of-type(33) {
+  transform: rotateY(66deg);
+}
+.box > div:nth-of-type(34) {
+  transform: rotateY(68deg);
+}
+.box > div:nth-of-type(35) {
+  transform: rotateY(70deg);
+}
+.box > div:nth-of-type(36) {
+  transform: rotateY(72deg);
+}
+.box > div:nth-of-type(37) {
+  transform: rotateY(74deg);
+}
+.box > div:nth-of-type(38) {
+  transform: rotateY(76deg);
+}
+.box > div:nth-of-type(39) {
+  transform: rotateY(78deg);
+}
+.box > div:nth-of-type(40) {
+  transform: rotateY(80deg);
+}
+.box > div:nth-of-type(41) {
+  transform: rotateY(82deg);
+}
+.box > div:nth-of-type(42) {
+  transform: rotateY(84deg);
+}
+.box > div:nth-of-type(43) {
+  transform: rotateY(86deg);
+}
+.box > div:nth-of-type(44) {
+  transform: rotateY(88deg);
+}
+.box > div:nth-of-type(45) {
+  transform: rotateY(90deg);
+}
+.box > div:nth-of-type(46) {
+  transform: rotateY(92deg);
+}
+.box > div:nth-of-type(47) {
+  transform: rotateY(94deg);
+}
+.box > div:nth-of-type(48) {
+  transform: rotateY(96deg);
+}
+.box > div:nth-of-type(49) {
+  transform: rotateY(98deg);
+}
+.box > div:nth-of-type(50) {
+  transform: rotateY(100deg);
+}
+.box > div:nth-of-type(51) {
+  transform: rotateY(102deg);
+}
+.box > div:nth-of-type(52) {
+  transform: rotateY(104deg);
+}
+.box > div:nth-of-type(53) {
+  transform: rotateY(106deg);
+}
+.box > div:nth-of-type(54) {
+  transform: rotateY(108deg);
+}
+.box > div:nth-of-type(55) {
+  transform: rotateY(110deg);
+}
+.box > div:nth-of-type(56) {
+  transform: rotateY(112deg);
+}
+.box > div:nth-of-type(57) {
+  transform: rotateY(114deg);
+}
+.box > div:nth-of-type(58) {
+  transform: rotateY(116deg);
+}
+.box > div:nth-of-type(59) {
+  transform: rotateY(118deg);
+}
+.box > div:nth-of-type(60) {
+  transform: rotateY(120deg);
+}
+.box > div:nth-of-type(61) {
+  transform: rotateY(122deg);
+}
+.box > div:nth-of-type(62) {
+  transform: rotateY(124deg);
+}
+.box > div:nth-of-type(63) {
+  transform: rotateY(126deg);
+}
+.box > div:nth-of-type(64) {
+  transform: rotateY(128deg);
+}
+.box > div:nth-of-type(65) {
+  transform: rotateY(130deg);
+}
+.box > div:nth-of-type(66) {
+  transform: rotateY(132deg);
+}
+.box > div:nth-of-type(67) {
+  transform: rotateY(134deg);
+}
+.box > div:nth-of-type(68) {
+  transform: rotateY(136deg);
+}
+.box > div:nth-of-type(69) {
+  transform: rotateY(138deg);
+}
+.box > div:nth-of-type(70) {
+  transform: rotateY(140deg);
+}
+.box > div:nth-of-type(71) {
+  transform: rotateY(142deg);
+}
+.box > div:nth-of-type(72) {
+  transform: rotateY(144deg);
+}
+.box > div:nth-of-type(73) {
+  transform: rotateY(146deg);
+}
+.box > div:nth-of-type(74) {
+  transform: rotateY(148deg);
+}
+.box > div:nth-of-type(75) {
+  transform: rotateY(150deg);
+}
+.box > div:nth-of-type(76) {
+  transform: rotateY(152deg);
+}
+.box > div:nth-of-type(77) {
+  transform: rotateY(154deg);
+}
+.box > div:nth-of-type(78) {
+  transform: rotateY(156deg);
+}
+.box > div:nth-of-type(79) {
+  transform: rotateY(158deg);
+}
+.box > div:nth-of-type(80) {
+  transform: rotateY(160deg);
+}
+.box > div:nth-of-type(81) {
+  transform: rotateY(162deg);
+}
+.box > div:nth-of-type(82) {
+  transform: rotateY(164deg);
+}
+.box > div:nth-of-type(83) {
+  transform: rotateY(166deg);
+}
+.box > div:nth-of-type(84) {
+  transform: rotateY(168deg);
+}
+.box > div:nth-of-type(85) {
+  transform: rotateY(170deg);
+}
+.box > div:nth-of-type(86) {
+  transform: rotateY(172deg);
+}
+.box > div:nth-of-type(87) {
+  transform: rotateY(174deg);
+}
+.box > div:nth-of-type(88) {
+  transform: rotateY(176deg);
+}
+.box > div:nth-of-type(89) {
+  transform: rotateY(178deg);
+}
+.box > div:nth-of-type(90) {
+  transform: rotateY(180deg);
+}/*# sourceMappingURL=circle.css.map */
